@@ -1,0 +1,21 @@
+{% autoescape off %}
+Hi {{ user.first_name }},
+{% if is_approved %}
+Congratulations! 🎉  
+Your restaurant {{ vendor_name }} has been approved by our FoodOnline Admin team.
+
+You can now log in to your profile and start publishing your menu.
+
+If you need any help, feel free to contact our support team through support@foodonline.com
+{% else %}
+We're sorry..
+Your restaurant {{ vendor_name }} is still under review. 
+
+You are not eligible for publishing your menu in the profile. 
+
+For more details please contact support@foodonline.com
+{% endif %}
+
+Thank you,  
+**FoodOnline Team**
+{% endautoescape %}
