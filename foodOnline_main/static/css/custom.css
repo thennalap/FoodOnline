@@ -12,3 +12,10 @@
     animation-duration: 5s;
     z-index: 99;
 }
+
+.btn.btn-info{
+    padding: 10px 1.75em ;
+    font-size: 12px;
+    cursor: pointer ;
+}
+
